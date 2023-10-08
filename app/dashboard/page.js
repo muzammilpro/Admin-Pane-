@@ -4,6 +4,7 @@ import Headercard from '../(components)/headercard'
 import TopBar from '../(components)/TopBar'
 import Layout from '../(components)/Layout'
 
+
 export default function Dashboard() {
   return (
     <>
@@ -14,7 +15,12 @@ export default function Dashboard() {
         <div className="rounded text-white  text-center pt-5 text-2xl font-bold bg-red-600 h-40 shadow-sm">Total number of Courses: <br /> 710</div>
         <div className="rounded text-white  text-center pt-5 text-2xl font-bold bg-blue-600 h-40 shadow-sm">Attendence</div>
       </div>
-      <div className="grid col-1 bg-white h-96 shadow-sm"></div>
+      <div className="grid col-1 bg-white h-96 shadow-sm">
+        
+
+
+
+      </div>
     </>
   )
 }
