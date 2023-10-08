@@ -1,6 +1,3 @@
-
-"use client"
-
 import { db } from "@/config/firebase";
 import {  addDoc, collection,getDocs } from "firebase/firestore";
 import {useState} from "react"
